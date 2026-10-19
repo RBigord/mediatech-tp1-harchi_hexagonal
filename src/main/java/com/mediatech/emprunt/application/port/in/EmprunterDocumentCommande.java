@@ -2,6 +2,8 @@ package com.mediatech.emprunt.application.port.in;
  
 import com.mediatech.emprunt.domaine.AdherentId;
 import com.mediatech.emprunt.domaine.ExemplaireId;
+
+import java.util.Objects;
  
 /** Les données d'entrée du cas d'usage. Immuable. */
 public record EmprunterDocumentCommande(AdherentId adherent, ExemplaireId exemplaire) {

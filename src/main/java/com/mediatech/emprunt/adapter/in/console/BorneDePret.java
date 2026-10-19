@@ -64,7 +64,7 @@ public class BorneDePret {
             sortie.println("Emprunt enregistré. À rendre avant le "
                     + emprunt.retourPrevu().format(FORMAT_DATE) + ".");
         } catch (ErreurMetier e) {
-            sortie.println("X" + e.getMessage());
+            sortie.println("X " + e.getMessage());
         }
     }
 }
